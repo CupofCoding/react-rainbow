@@ -8,7 +8,7 @@ function App() {
 
   let colorMap = colors.map((color,i) => {
     return(
-      <ColorBLock key={i} color={color} />
+      <ColorBlock key={i} color={color} />
     )
   })
 
